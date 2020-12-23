@@ -46,13 +46,14 @@ img {
     margin-top: 90px;
     padding: 0 200px;
 }
-.list {
-    list-style-type: square;
+.list-items {
+    font-size: large;
+    line-height: 300%;
 }
-table, th, td{
-    margin: 0 auto;
-    width: 60%;
-    height: auto;
-    text-align: left;
-    padding: 50px 0 50px 0;
+.icons {
+    font-size: 4em;
+    color:white; 
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
 }

@@ -6,58 +6,72 @@
     <title>Luke Giles</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./script/index.js" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet"></link>
   </head>
   <body class="myApp">
     <div>
-      <div class="navbar">
-        <div class="float-left">Luke Giles</div>
-        <div>
-          <a href="#contact-info">Contact Info</a>
-          <a href="#projects">Projects</a>
-          <a href="#about-me">About Me</a>
+      <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Contact Info</a>
+              </li>
+            </ul>
+            <h3>Luke Giles</h3>
+          </div>
         </div>
-      </div>
+      </nav>
       <img src="./images/IMG_1456.JPG" alt="profile headshot of me" />
       <div class="about-me" id="about-me">
         <div class="about-me-div">
           <h1 class="header">About Me</h1>
           <p>
             I started on a quest to become a web developer in 2019. What I lack
-            in experience I make up for with my eagarness to learn and "can do"
+            in work experience I make up for with my eagarness to learn and "can do"
             attitude. I have a broad knowledge of both frontend and backend
-            technologies.
+            technologies but have gained more expertise with Angular10 through recent projects.
           </p>
         </div>
       </div>
     </div>
-    <table>
-      <tr>
-        <td><h1>Skills:</h1></td>
-        <td>
-          <ul>
+    <div class="d-flex flex-row bd-highlight mb-3 justify-content-around" style="margin-top: 10%;">
+      <div class="card" style="width: 18rem; background-color: black; color: white; border: 5px solid white; border-radius: 25px;">
+        <div class="card-body">
+          <i class="fas fa-toolbox icons"></i>
+          <h5 class="card-title" style="text-align: center;">Skills</h5>
+          <ul class="list-items">
             <li>Git/GitHub</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>ReactJS</li>
             <li>NodeJS</li>
-            <li>PostgreSQL</li>
+            <li>SQL</li>
             <li>AWS-s3,Lambda</li>
-            <li>Angular9</li>
+            <li>Angular10/Typescript</li>
           </ul>
-        </td>
-      </tr>
-      <tr>
-        <td><h1>Education:</h1></td>
-        <td>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: black; color: white; border: 5px solid white; border-radius: 25px;">
+        <div class="card-body">
+          <i class="fas fa-university icons"></i>
+          <h5 class="card-title" style="text-align: center;">Education</h5>
           <ul>
             <li>
               <strong>
-                Introduction to Programming, MTECH, Sept 2019-Oct 2019
+                Information Systems - Application Development Emphasis, B.S., UVU, Sept 2020-Dec 2023
               </strong>
-              <ul>
-                <li>Learned Python, HTML and CSS basics</li>
-              </ul>
             </li>
           </ul>
           <ul>
@@ -77,29 +91,39 @@
           <ul>
             <li>
               <strong>
-                Technology Management AAS, UVU, Sept 2020-Dec 2021
+                Introduction to Programming, MTECH, Sept 2019-Oct 2019
               </strong>
+              <ul>
+                <li>Learned Python, HTML and CSS basics</li>
+              </ul>
             </li>
           </ul>
-        </td>
-      </tr>
-      <tr>
-        <td><h1>Hobbies/Interests:</h1></td>
-        <td>
-          <ul>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: black; color: white; border: 5px solid white; border-radius: 25px;">
+        <div class="card-body">
+          <i class="far fa-futbol icons"></i>
+          <h5 class="card-title" style="text-align: center;">Hobbies</h5>
+          <ul class="list-items">
             <li>Hanging out with my wife</li>
             <li>Web Dev obviously</li>
             <li>Sports (keen love for soccer though)</li>
             <li>FIFA, Warzone</li>
-            <li>The Office, Parks and Rec, Breaking Bad</li>
+            <li>The Office, The Queens Gambit, Schitts Creek, Breaking Bad</li>
             <li>Chess</li>
             <li>Card/Board Games</li>
           </ul>
-        </td>
-      </tr>
-    </table>
-    <div>
+        </div>
+      </div>
+    </div>
+    <div class="about-me-div" id="projects">
         <h1 class="header">Projects</h1>
     </div>
+    <div class="about-me-div" id="contact-info">
+      <h1 class="header">Contact Info</h1>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
