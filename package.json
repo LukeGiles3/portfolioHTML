@@ -19,5 +19,8 @@
   "homepage": "https://github.com/LukeGiles3/portfolio#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
   }
 }

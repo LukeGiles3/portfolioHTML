@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Giles</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/9c754b535e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-black text-white font-mono">
+    <div
+      id="navBar"
+      class="
+        bg-beige
+        h-1000
+        text-4xl
+        flex flex-row
+        justify-between
+        p-3
+        sticky
+        top-0
+      "
+    >
+      <div class="p-3">
+        <a class="p-3" href="#">Luke Giles</a>
+      </div>
+      <div class="p-3">
+        <a class="hover:bg-red p-3" href="#aboutMe">About Me</a>
+        <a class="hover:bg-red p-3" href="#projects">Projects</a>
+        <a class="hover:bg-red p-3" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div id="profilePic">
+      <img src="/images/IMG_1455.JPG" alt="profile picture of luke giles" />
+    </div>
+
+    <div id="mainContainer" class="flex flex-col text-center">
+      <div id="aboutMe" class="mt-20">
+        <h1 class="text-7xl">About Me</h1>
+
+        <div id="cardsContainer">
+          <div
+            id="cardContainer1"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+            "
+          >
+            <i class="fa-solid fa-building-columns text-8xl p-3"></i>
+            <div class="">
+              <div class="font-bold text-xl mb-2">Education</div>
+              <ul>
+                <li>Utah Tech University </li>
+                <li>Utah Valley University</li>
+                <li>Mountainland Technical College</li>
+                <li>Westlake High School</li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div id="cardContainer2"></div>
+          <div id="cardContainer3"></div>
+        </div>
+      </div>
+
+      <div id="projects" class="underline text-9xl">Projects</div>
+
+      <div id="contact" class="underline text-9xl">Contact</div>
+    </div>
+  </body>
+</html>
