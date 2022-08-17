@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Giles</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/9c754b535e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-black text-white font-mono">
+    <div
+      id="navBar"
+      class="
+        bg-beige
+        h-1000
+        text-4xl
+        flex flex-row
+        justify-between
+        p-3
+        sticky
+        top-0
+      "
+    >
+      <div class="p-3">
+        <a class="p-3" href="#">Luke Giles</a>
+      </div>
+      <div class="p-3">
+        <a class="hover:bg-red p-3" href="#mainContainer">About Me</a>
+        <a class="hover:bg-red p-3" href="#projects">Projects</a>
+        <a class="hover:bg-red p-3" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div id="profilePic">
+      <img src="/images/IMG_1455.JPG" alt="profile picture of luke giles" />
+    </div>
+
+    <div id="mainContainer" class="flex flex-col">
+      <div id="aboutMe" class="mt-20">
+        <h1 class="text-7xl mb-20 text-center">About Me</h1>
+        <h3 class="text-2xl mb-20 text-center px-10">Software quality engineer looking to transition into software development or software engineering.
+           Burning desire to create my own bugs instead of finding others bugs.</h3>
+
+        <div id="aboutMeCardsContainer" class="flex flex-row justify-between p-20">
+
+          <div
+            id="cardContainer1"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+              p-5
+            "
+          >
+          <div class="text-center">
+            <i class="fa-solid fa-building-columns text-8xl p-3"></i>
+          </div>
+            <div>
+              <div class="font-bold text-xl mb-2 text-center pb-10">Education</div>
+              <ul>
+                <b>Utah Tech University, Fall 2022 - Current</b>
+                    <li>Pursuing Bachelor of Science - BS, Information Systems and Technology</li>
+                  <br>
+                <b>Utah Valley University, Spring 2020 - Spring 2022</b>
+                    <li>Associate of Science - AS, General Studies</li>
+                    <li>Certificate of Profiency in Information Technology</li>
+                  <br>
+                <b>Mountainland Technical College, 2020 Graduate</b>
+                    <li>Certificate of Web Programming and Development</li>
+                  <br>
+                <b>Westlake High School</b>
+                    <li>Graduating Class of 2017</li>
+              </ul>
+            </div>
+            </div>
+
+            <div
+            id="cardContainer2"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+              p-5
+            "
+          >
+          <div class="text-center">
+            <i class="fa-solid fa-laptop-code text-8xl p-3"></i>
+          </div>
+            <div class="">
+              <div class="font-bold text-xl mb-2 text-center pb-10">Skills</div>
+              <ul>
+                <li class="py-2">HTML </li>
+                <li class="py-2">CSS</li>
+                <li class="py-2">JavaScript</li>
+                <li class="py-2">SQL</li>
+                <li class="py-2">AWS CodePipeline</li>
+                <li class="py-2">React</li>
+                <li class="py-2">NodeJS</li>
+                <li class="py-2">Express</li>
+                <li class="py-2">MongoDB</li>
+                <li class="py-2">Angular</li>
+                <li class="py-2">Git/GitHub</li>
+                <li class="py-2">Cypress.io/WebDriverIO</li>
+              </ul>
+            </div>
+            </div>
+            
+            <div
+            id="cardContainer3"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+              p-5
+            "
+          >
+          <div class="text-center">
+            <i class="fa-solid fa-briefcase text-8xl p-3"></i>
+          </div>
+            <div class="">
+              <div class="font-bold text-xl mb-2 text-center pb-10">Experience</div>
+              <ul>
+                <b>Younique, Jan 2021 - Present</b>
+                <br>
+                <b>Software Quality Engineer II</b>
+                  <li>Oversee manual/automated testing of new features or bug fixes 
+                    for the logistics team.
+                  </li> 
+                  <li>
+                    Create new and maintain existing automated 
+                    regression tests for the warehouse management system using Cypress.io.
+                  </li> 
+                  <li>
+                    Manage the releases of code for all major repositories department wide 
+                    using AWS CodePipeline.
+                  </li>
+                  <br>
+                <b>DoTerra, September 2019 - April 2021</b>
+                <br>
+                <b>Member Services Representative</b>
+                <li>Performed a wide variety of tasks involving the coordination of customer 
+                  service inquiries and problems.</li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="projects" class="flex flex-col">
+          <h1 class="text-7xl mb-20 text-center">Projects</h1>
+
+        <div id="projectsCardsContainer1" class="flex flex-row justify-between p-20">
+          <div id="worldFootballNews" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 9.28.29 AM.png" alt="welcome screen for world football news">
+            <div class="px-6 py-4">
+              <div class="pb-5 text-center">
+                <a href="#" class="font-bold text-xl mb-2 hover:bg-red p-3">World Football News</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                An ESPN mock created with Laravel using RapidAPI to gather football data. Includes user authentication and a relational SQL database.
+              </p>
+            </div>
+          </div>
+          <div id="movieSearcher" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 9.47.52 AM.png" alt="movie searcher web app">
+            <div class="px-2 py-4">
+              <div class="pb-5 text-center">
+                <a href="https://lukegiles3.github.io/MovieApp/" class="font-bold text-xl mb-2 hover:bg-red p-3">Movie Searcher IMDB Mock</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                Search for any movie using OMDBs API. Features Bootstrap, Ajax and JQuery.
+              </p>
+            </div>
+          </div>
+          <div id="timestampMicroservice" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 10.01.20 AM.png" alt="timestamp microservice web app">
+            <div class="px-2 py-4">
+              <div class="pb-5 text-center">
+                <a href= "https://us-central1-fcctimestampmicroservice.cloudfunctions.net/app" class="font-bold text-xl mb-2 hover:bg-red p-3">Timestamp Microservice</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                Using NodeJS and Express, this microservice with provide the unix and UTC time of any date it is given, in JSON format.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="projectsCardsContainer2" class="flex flex-row justify-between p-20">
+          <div id="golfScorecard" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 10.13.53 AM.png" alt="golf scorecard web app">
+            <div class="px-6 py-4">
+              <div class="pb-5 text-center">
+                <a href="https://lukegiles3.github.io/GolfApp/" class="font-bold text-xl mb-2 hover:bg-red p-3">Golf Scorecard</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                A web app used to keep track of your score during a game of golf at select locations. 
+              </p>
+            </div>
+          </div>
+          <div id="toDoList" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 10.20.00 AM.png" alt="to do list web app">
+            <div class="px-2 py-4">
+              <div class="pb-5 text-center">
+                <a href="https://lukegiles3.github.io/To-Do-List/" class="font-bold text-xl mb-2 hover:bg-red p-3">To Do List</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                Basic Javascript web app used to create lists of all the things you need to do.
+              </p>
+            </div>
+          </div>
+          <div id="timestampMicroservice" class="max-w-sm rounded overflow-hidden shadow-lg border-4 border-white p-5">
+            <img class="w-full" src="../images/Screen Shot 2022-08-17 at 10.01.20 AM.png" alt="timestamp microservice web app">
+            <div class="px-2 py-4">
+              <div class="pb-5">
+                <a href= "https://us-central1-fcctimestampmicroservice.cloudfunctions.net/app" class="font-bold text-xl mb-2 hover:bg-red p-3">Timestamp Microservice</a>
+              </div>
+              <p class="text-gray-700 text-base">
+                Using NodeJS and Express, this microservice with provide the unix and UTC time of any date it is given, in JSON format.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div id="contact" class="underline text-9xl">Contact</div>
+      </div>
+    </div>
+  </body>
+</html>
