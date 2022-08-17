@@ -38,11 +38,12 @@
       <img src="/images/IMG_1455.JPG" alt="profile picture of luke giles" />
     </div>
 
-    <div id="mainContainer" class="flex flex-col text-center">
+    <div id="mainContainer" class="flex flex-col">
       <div id="aboutMe" class="mt-20">
-        <h1 class="text-7xl">About Me</h1>
+        <h1 class="text-7xl mb-20 text-center">About Me</h1>
 
-        <div id="cardsContainer">
+        <div id="cardsContainer" class="flex flex-row justify-between p-20">
+
           <div
             id="cardContainer1"
             class="
@@ -51,28 +52,104 @@
               overflow-hidden
               shadow-lg
               border-8 border-white
+              p-5
             "
           >
+          <div class="text-center">
             <i class="fa-solid fa-building-columns text-8xl p-3"></i>
-            <div class="">
-              <div class="font-bold text-xl mb-2">Education</div>
+          </div>
+            <div>
+              <div class="font-bold text-xl mb-2 text-center pb-10">Education</div>
               <ul>
-                <li>Utah Tech University </li>
-                <li>Utah Valley University</li>
-                <li>Mountainland Technical College</li>
-                <li>Westlake High School</li>
+                <b>Utah Tech University, Fall 2022 - Current</b>
+                    <li>Pursuing Bachelor of Science - BS, Information Systems and Technology</li>
+                  <br>
+                <b>Utah Valley University, Spring 2020 - Spring 2022</b>
+                    <li>Associate of Science - AS, General Studies</li>
+                    <li>Certificate of Profiency in Information Technology</li>
+                  <br>
+                <b>Mountainland Technical College, 2020 Graduate</b>
+                    <li>Certificate of Web Programming and Development</li>
+                  <br>
+                <b>Westlake High School</b>
+                    <li>Graduating Class of 2017</li>
+              </ul>
+            </div>
+            </div>
+
+            <div
+            id="cardContainer2"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+              p-5
+            "
+          >
+          <div class="text-center">
+            <i class="fa-solid fa-laptop-code text-8xl p-3"></i>
+          </div>
+            <div class="">
+              <div class="font-bold text-xl mb-2 text-center pb-10">Skills</div>
+              <ul>
+                <li class="py-2">HTML </li>
+                <li class="py-2">CSS</li>
+                <li class="py-2">JavaScript</li>
+                <li class="py-2">SQL</li>
+                <li class="py-2">AWS CodePipeline</li>
+                <li class="py-2">React</li>
+                <li class="py-2">NodeJS</li>
+                <li class="py-2">Express</li>
+                <li class="py-2">MongoDB</li>
+                <li class="py-2">Angular</li>
+              </ul>
+            </div>
+            </div>
+            
+            <div
+            id="cardContainer3"
+            class="
+              max-w-sm
+              rounded
+              overflow-hidden
+              shadow-lg
+              border-8 border-white
+              p-5
+            "
+          >
+          <div class="text-center">
+            <i class="fa-solid fa-briefcase text-8xl p-3"></i>
+          </div>
+            <div class="">
+              <div class="font-bold text-xl mb-2 text-center pb-10">Experience</div>
+              <ul>
+                <b>Younique, Jan 2021 - Present</b>
+                  <li>Oversee manual/automated testing of new features or bug fixes 
+                    for the logistics team.
+                  </li> 
+                  <li>
+                    Create new and maintain existing automated 
+                    regression tests for the warehouse management system using Cypress.io.
+                  </li> 
+                  <li>
+                    Manage the releases of code for all major repositories department wide 
+                    using AWS CodePipeline.
+                  </li>
+                  <br>
+                <b>DoTerra, September 2019 - April 2021</b>
+                <li>Performed a wide variety of tasks involving the coordination of customer 
+                  service inquiries and problems.</li>
               </ul>
             </div>
             </div>
           </div>
-          <div id="cardContainer2"></div>
-          <div id="cardContainer3"></div>
         </div>
-      </div>
-
-      <div id="projects" class="underline text-9xl">Projects</div>
+        <div id="projects" class="underline text-9xl">Projects</div>
 
       <div id="contact" class="underline text-9xl">Contact</div>
+      </div>
     </div>
   </body>
 </html>
